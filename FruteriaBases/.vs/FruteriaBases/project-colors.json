@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "594a8532-f6e9-48eb-98df-6b4e2af7a74b": {
+      "ProjectGuid": "594a8532-f6e9-48eb-98df-6b4e2af7a74b",
+      "DisplayName": "FruteriaBases",
+      "ColorIndex": 0
+    },
+    "9f22a6d5-d127-4626-90c1-0df4b83f7a21": {
+      "ProjectGuid": "9f22a6d5-d127-4626-90c1-0df4b83f7a21",
+      "DisplayName": "Lib",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

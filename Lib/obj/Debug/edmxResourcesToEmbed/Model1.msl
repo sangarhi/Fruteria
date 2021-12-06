@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FrutaModelStoreContainer" CdmEntityContainer="FrutaEntities">
+    <EntitySetMapping Name="COR_Forma">
+      <EntityTypeMapping TypeName="FrutaModel.COR_Forma">
+        <MappingFragment StoreEntitySet="COR_Forma">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+          <ScalarProperty Name="FechaCreado" ColumnName="FechaCreado" />
+          <ScalarProperty Name="FechaModificado" ColumnName="FechaModificado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COR_Forma_Fruta">
+      <EntityTypeMapping TypeName="FrutaModel.COR_Forma_Fruta">
+        <MappingFragment StoreEntitySet="COR_Forma_Fruta">
+          <ScalarProperty Name="FrutaID" ColumnName="FrutaID" />
+          <ScalarProperty Name="FormaID" ColumnName="FormaID" />
+          <ScalarProperty Name="FechaCreado" ColumnName="FechaCreado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COR_Fruta">
+      <EntityTypeMapping TypeName="FrutaModel.COR_Fruta">
+        <MappingFragment StoreEntitySet="COR_Fruta">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaModificado" ColumnName="FechaModificado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FrutaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="COR_Forma">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Categoria" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FechaCreado" Type="DateTime" Precision="3" />
+    <Property Name="FechaModificado" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="COR_Forma_Fruta">
+    <Key>
+      <PropertyRef Name="FrutaID" />
+      <PropertyRef Name="FormaID" />
+    </Key>
+    <Property Name="FrutaID" Type="Int32" Nullable="false" />
+    <Property Name="FormaID" Type="Int32" Nullable="false" />
+    <Property Name="FechaCreado" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="COR_Fruta">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Descripcion" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="FechaModificado" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="FrutaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="COR_Forma" EntityType="Self.COR_Forma" />
+    <EntitySet Name="COR_Forma_Fruta" EntityType="Self.COR_Forma_Fruta" />
+    <EntitySet Name="COR_Fruta" EntityType="Self.COR_Fruta" />
+  </EntityContainer>
+</Schema>

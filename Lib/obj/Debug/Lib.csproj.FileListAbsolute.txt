@@ -1,0 +1,16 @@
+C:\Users\Sandra\source\repos\Lib\bin\Debug\Lib.dll
+C:\Users\Sandra\source\repos\Lib\bin\Debug\Lib.pdb
+C:\Users\Sandra\source\repos\Lib\obj\Debug\Lib.csproj.AssemblyReference.cache
+C:\Users\Sandra\source\repos\Lib\obj\Debug\Lib.csproj.CoreCompileInputs.cache
+C:\Users\Sandra\source\repos\Lib\obj\Debug\Lib.dll
+C:\Users\Sandra\source\repos\Lib\obj\Debug\Lib.pdb
+C:\Users\Sandra\source\repos\Lib\bin\Debug\Lib.dll.config
+C:\Users\Sandra\source\repos\Lib\bin\Debug\EntityFramework.dll
+C:\Users\Sandra\source\repos\Lib\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sandra\source\repos\Lib\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sandra\source\repos\Lib\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sandra\source\repos\Lib\bin\Debug\EntityFramework.xml
+C:\Users\Sandra\source\repos\Lib\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sandra\source\repos\Lib\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sandra\source\repos\Lib\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sandra\source\repos\Lib\obj\Debug\Lib.csproj.CopyComplete

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruteriaBases", "FruteriaBases.csproj", "{594A8532-F6E9-48EB-98DF-6B4E2AF7A74B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib", "..\Lib\Lib.csproj", "{9F22A6D5-D127-4626-90C1-0DF4B83F7A21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{594A8532-F6E9-48EB-98DF-6B4E2AF7A74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594A8532-F6E9-48EB-98DF-6B4E2AF7A74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594A8532-F6E9-48EB-98DF-6B4E2AF7A74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594A8532-F6E9-48EB-98DF-6B4E2AF7A74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F22A6D5-D127-4626-90C1-0DF4B83F7A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F22A6D5-D127-4626-90C1-0DF4B83F7A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F22A6D5-D127-4626-90C1-0DF4B83F7A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F22A6D5-D127-4626-90C1-0DF4B83F7A21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {651035E6-E67F-4D80-B91D-EECB2E88EB91}
+	EndGlobalSection
+EndGlobal
